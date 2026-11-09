@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or the saved predictions, please cite it as below."
+title: "Plant Disease Classification Model Training: source code and results"
+type: software
+authors:
+  - family-names: Kuttymbek
+    given-names: Balaussa
+    affiliation: "Astana IT University"
+version: 1.0.0
+date-released: 2026-11-09
+license: MIT
+repository-code: "https://github.com/balausakuttymbek/Plant-Disease-Classification-Model-Training"
+keywords:
+  - plant disease classification
+  - confidence cascade
+  - transfer learning
+  - Cassava
