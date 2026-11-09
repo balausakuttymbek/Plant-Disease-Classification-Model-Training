@@ -1,0 +1,17 @@
+{
+  "python": "3.13.16",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "packages": {
+    "tensorflow": "2.21.0",
+    "keras": "3.13.2",
+    "tensorflow-datasets": "4.9.10",
+    "scikit-learn": "1.6.1",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0"
+  },
+  "gpu": "Tesla T4",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "cpu_count": 2
+}

@@ -1,0 +1,30 @@
+{
+  "n_images": 300,
+  "tau": 0.6,
+  "threads": 2,
+  "cpu_only": true,
+  "escalation_rate_subset": 0.35333333333333333,
+  "configs": {
+    "MobileNetV2": {
+      "mean_ms": 219.99029602665286,
+      "median_ms": 205.36800449997372,
+      "p95_ms": 286.38234519982007
+    },
+    "ResNet50": {
+      "mean_ms": 422.06566299667054,
+      "median_ms": 395.33631450001394,
+      "p95_ms": 594.9531796499059
+    },
+    "Soft voting": {
+      "mean_ms": 640.9059244333373,
+      "median_ms": 601.305539000009,
+      "p95_ms": 863.2052201500755
+    },
+    "Cascade": {
+      "mean_ms": 380.9767332899697,
+      "median_ms": 260.51624099977744,
+      "p95_ms": 850.4976766497862
+    }
+  },
+  "cascade_agreement_with_saved_predictions": 1.0
+}
