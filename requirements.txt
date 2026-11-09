@@ -1,0 +1,11 @@
+# Environment of the pilot (Google Colab, Python 3.13.16; see pilot_artifacts/environment.json)
+tensorflow==2.21.0
+keras==3.13.2
+tensorflow-datasets==4.9.10
+scikit-learn==1.6.1
+numpy==2.4.6
+pandas==2.2.3
+scipy==1.16.3
+matplotlib==3.10.0
+# needed by TensorFlow Datasets on Python 3.13 (missing in the Colab runtime)
+importlib_resources
